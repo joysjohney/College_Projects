@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mtlz.qetc">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Summary"></activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".VehicleList" />
+        <activity android:name=".ViewQr" />
+        <activity android:name=".Recharge" />
+        <activity android:name=".ViewVehicles" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".TollRules" />
+        <activity android:name=".Issue" />
+        <activity android:name=".AddVehicle" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Vehicle" />
+        <activity android:name=".About" />
+        <activity android:name=".ReportIssue" />
+        <activity android:name=".NearBy" />
+        <activity android:name=".ViewVehicle" />
+        <activity android:name=".Bank" />
+        <activity android:name=".Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_TlBeS6ZFebxa7t" />
+    </application>
+
+</manifest>

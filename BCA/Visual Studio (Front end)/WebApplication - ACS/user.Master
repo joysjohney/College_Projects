@@ -1,0 +1,594 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user.Master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IN" class="no-js">
+<head>
+    <title>Private Jet &amp; Helicopters Charters in India - Air Charter Service</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="pinterest" content="nohover">
+    <meta name="description" content="ACS arranges 10,000+ private jet, commercial &amp; cargo aircraft charters per year at competitive prices. Enquire online or call 09745866044, available 24/7.">
+    <meta name="version" content="1.0.1142-form-builder" />
+    <meta name="rqid" content="tcm:50-1181-64" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
+
+    <meta name="google-site-verification" content="bGoEcPEmjPBjiIL-hVHk_2627NrSfn5iGQvah7DG_l4" />
+
+        <link rel="canonical" href="home.aspx" />
+
+    
+
+
+
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+        <link href="/css/v-636556232180000000/ie.min.css" rel="stylesheet" />
+
+    <![endif]-->
+    <!--[if (gte IE 9) | (IEMobile)]><!-->
+    <link href="css/v-636556232200000000/styles.min.css" rel="stylesheet" />
+    <!--<![endif]-->
+    <script src="js/libs/v-636556232200000000/modernizr.js"></script>
+    
+    
+    
+    <!-- Segment Pixel - ACS : ROS Segment  - DO NOT MODIFY -->
+<script src="https://secure.adnxs.com/seg?add=3143259&amp;t=1" type="text/javascript"></script>
+<!-- End of Segment Pixel -->
+    <script>
+        var appPath = "";
+    </script>
+    </head>
+    <body>
+        
+    
+    
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-2711444-19', 'auto');
+
+    ga(function (tracker) {
+        var clientId = tracker.get('clientId');
+        document.getElementById("global-ga-client-id").value = clientId;
+        ga('set', 'dimension11', clientId);
+    });
+    ga('set', 'dimension6', 'Visitor')
+    ga('send', 'pageview')
+
+</script>
+
+
+<input type="hidden" id="global-ga-client-id" value="" />
+    <div class="content-wrapper">
+        <div id="mp-pusher" class="mp-pusher">
+            <div class="content">
+                <div class="mp-pusher-overflow-hider">
+                    <div class="content-inner">
+
+                        
+
+    
+
+<header role="banner" class="banner">
+    <a class="mobile-menu menu-trigger" id="trigger" href="#">
+        <div class="burger">
+        </div>
+        <span>MENU</span>
+    </a>
+    <div class="sc-wrapper top-links sc-wrapper--flush">
+        <div class="lg-container">
+            <div class="row">
+                <div class="col lg_span_12 md_span_12 sm-hidden">
+                    <ul class="primary-links">
+                       
+
+                        
+                               
+                                <li><a href="history.aspx" target="_self" title="About us">ABOUT US</a></li>
+                                <li><a href="contact.aspx" target="_self" title="Contact us">CONTACT US</a></li>
+                                
+   <li>
+                            
+
+<a data-panel="#lang-selector-panel" id="lang-selector" class="panel-btn" href="#">MY ACCOUNT<span class="down-triangle"></span></a>
+<div id="lang-selector-panel" class="panel" style="display:none">
+    
+
+    <ul class="countries">
+        
+         <li><a href="cancelbook.aspx">Cancel Booking </a></li>
+         <li><a href="status.aspx">History </a></li>
+        
+    </ul>
+</div>
+                        </li>
+                       <li> <%if (Session["email"]==null){ %>
+      <a href="login.aspx" target="_self" title="SIGN IN">SIGN IN</a><%}else{ %>
+      <a href="logout.aspx" target="_self" title="SIGN IN">SIGN OUT</a><%} %>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="sc-wrapper logo-banner sc-wrapper--flush sm-hidden">
+        <div class="lg-container">
+            <div class="row">
+                <div class="col lg_span_12 md_span_12 sm_span_6" itemscope="" itemtype="http://schema.org/Organization">
+                    <a href="home.aspx" itemprop="url" class="logo"></a>
+                    <div class="contact office_items_1">
+                        
+
+    <a class="js-contact-select blue-split-cta" data-overlay-name="contact-phonenumber-overlay" href="contact.html"><i class="icon-24hr"></i>CALL US NOW</a>
+        <a class="js-contact-select-no-overlay blue-split-cta" href="contact.html"><i class="icon-24hr"></i>CALL US NOW</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav id="mp-menu" class="mp-menu">
+            <div class="sc-wrapper nav-links sc-wrapper--flush">
+                <div class="lg-container">
+                    <div class="row">
+                        <div class="col lg_span_12 md_span_12 sm_span_6">
+
+                            <div class="mp-level mp-level__one" data-level="1">
+                                <ul class="primary-links">
+
+
+
+                                                            <li class=""><a >PRIVATE CHARTER</a> </li>
+                                                            <li class=""><a >HELICOPTERS</a> </li>
+                                                            <li class=""><a >AIR AMBULANCE</a> </li>
+                                                            <li class=""><a >ACS GUIDE</a> </li>
+                                                            <li class=""><a >DESTINATIONS</a> </li>
+                                                            <li class=""><a >ABOUT US</a> </li>                                                                                                                                                                                  
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sc-wrapper secondary-nav sc-wrapper--flush">
+                <!-- every 3n+5 secondary nav item needs a class of secondary-links__item-clr for clearing in ie8, items 5, 8, 11, 14 etc -->
+                <div class="lg-container">
+                    <div class="row">
+                        <div class="col lg_span_12 md_span_12 sm_span_6">
+
+
+
+                                                 <!--PRIVATE JET-->
+                                                    <div class="mp-level row" data-level="2">
+                                                        <div class="col secondary-links lg_span_6 md_span_6 sm_span_6">
+
+                                                            <ul class="row">
+                                                                <li class="col md-hidden lg-hidden lg_span_4 md_span_6 sm_span_6">
+                                                                    <a class="icon icon-phone" >
+                                                                        <p class="title">PRIVATE CHARTER</p>
+                                                                    </a>
+                                                                </li>
+
+                                                            <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="private jet.aspx">
+                                                                    <p class="title">PRIVATE JETS</p>
+                                                                    <p>Private charters for both business and leisure</p>
+                                                                </a>
+                                                            </li>
+                                                            <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="executive.aspx">
+                                                                    <p class="title">EXECUTIVE AIRLINERS</p>
+                                                                    <p>Large aircraft charters offer luxury and comfort</p>
+                                                                </a>
+                                                            </li>
+                                                            </ul>
+                                                        </div>
+                                                         </div>
+                                                                                                                                                                                                     
+                                             
+
+                                                    <!--HELICOPTERS-->
+                                                    <div class="mp-level row" data-level="2">
+                                                        <div class="col secondary-links lg_span_6 md_span_6 sm_span_6">
+
+                                                            <ul class="row">
+                                                                <li class="col md-hidden lg-hidden lg_span_4 md_span_6 sm_span_6">
+                                                                    <a class="icon icon-phone">
+                                                                        <p class="title">HELICOPTERS</p>
+                                                                    </a>
+                                                                </li>
+                                                                 <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="helicopter.aspx">
+                                                                    <p class="title">HELICOPTERS</p>
+                                                                    <p>The flexibility of point to point travel</p>
+                                                                </a>
+                                                            </li>
+                                                           
+                                                           
+                                                            
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                         </div>
+
+
+
+                                                    <!--AIR AMBULANCE-->    
+                                                    <div class="mp-level row" data-level="2">
+                                                        <div class="col secondary-links lg_span_6 md_span_6 sm_span_6">
+
+                                                            <ul class="row">
+                                                                <li class="col md-hidden lg-hidden lg_span_4 md_span_6 sm_span_6">
+                                                                    <a class="icon icon-phone">
+                                                                        <p class="title">AIR AMBULANCE</p>
+                                                                    </a>
+                                                                </li>
+                                                                 <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="ambulance.aspx">
+                                                                    <p class="title">AIR AMBULANCE</p>
+                                                                    <p>Safe and quick travel for patients</p>
+                                                                </a>
+                                                            </li>
+                                                                 <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="emergency.aspx">
+                                                                    <p class="title">EMERGENCY RESPONSE</p>
+                                                                    <p>Get help to those in need, fast</p>
+                                                                </a>
+                                                            </li>
+                                                                                            
+                                                       </ul>
+                                                     </div>
+                                                   </div>
+
+
+
+                                                    <!--AIRCRAFT GUIDE-->
+                                                        <div class="mp-level row" data-level="2">
+                                                        <div class="col secondary-links lg_span_6 md_span_6 sm_span_6">
+
+                                                            <ul class="row">
+                                                                <li class="col md-hidden lg-hidden lg_span_4 md_span_6 sm_span_6">
+                                                                    <a class="icon icon-phone" >
+                                                                        <p class="title">ACS GUIDE</p>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="specification.aspx">
+                                                                    <p class="title">AIRCRAFT GUIDE</p>
+                                                                    <p>Features &amp;specifications of the aircarfts </p>
+                                                                </a>
+                                                            </li>
+                                                                  <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="safty.aspx">
+                                                                    <p class="title">SAFETY &amp; COMPLIANCE</p>
+                                                                    <p>Charter with ACS and you&#39;re in safe hands</p>
+                                                                </a>
+                                                            </li>
+                                                               
+                                                              
+                                                        
+                                                             
+                                                           
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+             
+
+
+
+                                                  <!--DESTINATION GUIDS-->
+                                                
+                                                    <div class="mp-level row" data-level="2">
+                                                        <div class="col secondary-links lg_span_6 md_span_6 sm_span_6">
+
+                                                            <ul class="row">
+                                                                <li class="col md-hidden lg-hidden lg_span_4 md_span_6 sm_span_6">
+                                                                    <a class="icon icon-phone">
+                                                                        <p class="title">DESTINATIONS</p>
+                                                                    </a>
+                                                                     <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="airport.aspx">
+                                                                    <p class="title">AIRPORT LIST</p>
+                                                                    <p>A list of major airports in India</p>
+                                                                </a>
+                                                            </li>
+                                                               
+                                                                 
+                                                                <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="map.aspx">
+                                                                    <p class="title">AIRPORT MAP</p>
+                                                                    <p>View of major airports in India</p>
+                                                                </a>
+                                                            </li>     
+                                                            
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+
+                                                 <!--ABOUT US-->
+                                                    <div class="mp-level row" data-level="2">
+                                                        <div class="col secondary-links lg_span_6 md_span_6 sm_span_6">
+
+                                                            <ul class="row">
+                                                                <li class="col md-hidden lg-hidden lg_span_4 md_span_6 sm_span_6">
+                                                                    <a class="icon icon-phone" >
+                                                                        <p class="title">ABOUT US</p>
+                                                                    </a>
+                                                                </li>
+
+                                                            <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="history.aspx">
+                                                                    <p class="title">COMPANY HISTORY</p>
+                                                                    <p>How we began and grew</p>
+                                                                </a>
+                                                            </li>                                                                                                                        
+                                                            
+                                                            <li class="col lg_span_4 md_span_6 sm_span_6  ">
+                                                                <a class="icon " href="testimonials.aspx">
+                                                                   <p class="title">TESTIMONIALS</p>
+                                                                    <p>What our clients think of us</p>
+                                                                   </a> 
+                                                                
+                                                            </li>
+                                                            </ul>
+                                                        </div>
+                                                      </div>
+
+
+
+                    <div class="mp-level row" data-level="2">
+                    </div>
+                    <div class="mp-level row" data-level="2">
+                    </div>
+                    <div class="mp-level row" data-level="2">
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                    </nav>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</header></div>
+
+
+
+
+
+
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+<section class="sc-wrapper contact-bar office_items_1">
+
+  
+        <div class="benefits-bar">
+            <ul class="lg-container benefits-bar__list">
+                    <li class="benefits-bar__list-item">DEDICATED ACCOUNT MANAGERS</li>
+                    <li class="benefits-bar__list-item">NO OBLIGATION</li>
+                    <li class="benefits-bar__list-item">25 YEARS EXPERIENCE</li>
+                    <li class="benefits-bar__list-item">AVAILABLE 24/7</li>
+            </ul>
+        </div>
+    <div class="lg-container">
+
+        <ul class="contact-bar__link-list">
+            <li class="contact-bar__link-list-item">
+                
+
+
+
+        <a data-overlay-name="contact-phonenumber-overlay" class="contact-bar__link js-contact-select" href="contact.html">
+            <i class="contact-bar__link-icon icon-24hr"></i>CALL US
+        </a>
+    
+            <section data-overlay-name="contact-phonenumber-overlay" class="footer-form-wrapper js-contact-select-overlay" style="display:none;">
+                <div class="row">
+                    <div class="col lg_span_12 md_span_12 sm_span_6">
+
+                        <h2 class="footer-form-wrapper__title">
+                            <i class="footer-form-wrapper__title-icon icon-24hr"></i>CALL US
+                        </h2>
+                        <button type="button" class="footer-form-wrapper__close"><i class="icon-close"></i></button>
+                        <div class="js-contact-select-overlay__inner">
+                <div class="office">
+
+                    <h4>ACS- Air Charter Service India Pvt Ltd</h4>
+                    Office: <a href='tel:00912266197070'> +91 9745866044</a><br />
+                   
+                    Private: <a href='tel:00912266197070'> +91 9497686044</a><br />
+                    
+                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+ <section data-overlay-name="contact-email-overlay" class="contact-email-overlay footer-form-wrapper js-contact-select-overlay" style="display: none;">
+                        <div class="row">
+                            <div class="col lg_span_12 md_span_12 sm_span_6">
+
+                                <h2 class="footer-form-wrapper__title">
+                                    <i class="footer-form-wrapper__title-icon icon-envelope"></i>EMAIL US
+                                </h2>
+                                <button type="button" class="footer-form-wrapper__close"><i class="icon-close"></i></button>
+                                <div class="js-contact-select-overlay__inner">
+                                            <div class="office">
+
+                                                <h4>ACS- Air Charter Service India Pvt Ltd</h4>
+                                                Office: <a href='mailto:BOMprivate@aircharterservice.com'> BOMprivate@aircharterservice.com</a><br />
+                                                
+                                                Private: <a href='mailto:BOMprivate@aircharterservice.com'> BOMprivate@aircharterservice.com</a><br />
+                                            </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+       
+                    
+            </li>
+            <li class="contact-bar__link-list-item sm-hidden contact-bar__link-list-item-livechat">
+                    <a class="contact-bar__link sm-hidden js-footer-form" data-overlay-name="contact-contactus-overlay" href="email.aspx" data-form-title="EMAIL US" data-form-type="contactus" data-form-icon="envelope">
+                        <i class="contact-bar__link-icon icon-envelope"></i>EMAIL US
+                    </a>
+                <button class="contact-bar__link js-live-chat" type="button">
+                    <i class="contact-bar__link-icon icon-live-chat"></i>ACS
+                </button>
+            </li>
+            <li class="contact-bar__link-list-item">
+                <a class="contact-bar__link js-footer-form" href="call back.aspx" data-form-title="REQUEST A CALLBACK" data-form-icon="callback" data-form-type="callback">
+                    <i class="contact-bar__link-icon icon-callback"></i>CALLBACK
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</section>
+</div>
+</div>
+
+
+<div class="sc-wrapper footer">
+    <div class="lg-container">
+
+        <nav class="footer__nav">
+<a href="ADMIN/log.aspx" target="_self" title="Contact Us">[ACS ADMIN]</a><a href="contact.aspx" target="_self" title="Contact Us">Contact Us</a><a href="privacy.aspx" target="_self" title="Privacy">Privacy</a><a href="cookie.aspx" target="_self" title="Cookie Policy">Cookie Policy</a></nav>
+
+        <div class="footer-apps">
+                <h3 class="paragraph footer-apps__title">Private Charter App</h3>
+
+<a class="footer-apps__link footer-apps__link--ios hello hey" href="https://itunes.apple.com/gb/app/air-charter-service-private/id584775810" rel="nofollow" target="_blank" title="ACS on the App Store">ACS on the App Store</a><a class="footer-apps__link footer-apps__link--android" href="https://play.google.com/store/apps/details?id=com.grppl.acs&amp;hl=en" target="_blank" title="ACS on Google Play">ACS on Google Play</a><a class="footer-apps__link footer-apps__link--blackberry" href="http://appworld.blackberry.com/webstore/vendor/49742/?lang=en" target="_blank" title="ACS on BlackBerry World">ACS on BlackBerry World</a>        </div>
+
+        <div class="footer-social">
+
+                    <a target="_blank" title="ACS on YouTube" class="footer-social__link footer-social__link--youtube" data-network-name="youtube" href="http://www.youtube.com/user/acsplc">
+                        <i class="footer-social__icon icon-youtube"></i>
+                        <span class="footer-social__text">ACS on YouTube</span>
+                    </a>
+                    <a target="_blank" title="ACS on LinkedIn" class="footer-social__link footer-social__link--linkedin" data-network-name="linkedin" href="https://www.linkedin.com/company/110790">
+                        <i class="footer-social__icon icon-linkedin"></i>
+                        <span class="footer-social__text">ACS on LinkedIn</span>
+                    </a>
+                    <a target="_blank" title="ACS on Facebook" class="footer-social__link footer-social__link--facebook" data-network-name="facebook" href="https://www.facebook.com/acsaircharter">
+                        <i class="footer-social__icon icon-facebook"></i>
+                        <span class="footer-social__text">ACS on Facebook</span>
+                    </a>
+                    <a target="_blank" title="ACS on Twitter" class="footer-social__link footer-social__link--twitter" data-network-name="twitter" href="https://twitter.com/ACS_AIRCHARTER">
+                        <i class="footer-social__icon icon-twitter"></i>
+                        <span class="footer-social__text">ACS on Twitter</span>
+                    </a>
+                    <a target="_blank" title="ACS on Google+" class="footer-social__link footer-social__link--google-plus" data-network-name="google-plus" href="https://plus.google.com/111553827679592196308/">
+                        <i class="footer-social__icon icon-google-plus"></i>
+                        <span class="footer-social__text">ACS on Google+</span>
+                    </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2018 Air Charter Service India Pvt Ltd | Platina, Unit no.703, 7th Floor, Bandra Kurla Complex, Bandra East, Mumbai – 400051, Maharashtra, India. | +91 9745866044</p>
+
+    </div>
+</div>
+      
+    </div>  
+</div>
+
+
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDYGAyp67aF-oUNjS3AqPBadDlI7w03K70&amp;libraries=places"></script>
+    
+    <script src="resources/resources.js"></script>
+    
+    <!--Start of AddThis Script-->
+<script type="text/javascript">
+    // tracking enabled for add this social bar
+    var addthis_config = {
+        data_ga_property: 'UA-2711444-19',
+        data_ga_social: true
+    };
+</script>
+<script type="text/javascript" src="../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54f45595448ea3fd"></script>
+<!--End of AddThis Script-->
+
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark || (function (c) {
+    var f = window, d = document, l = f.location.protocol == "https:" ? "https:" : "http:", z = c.name, r = "load"; var nt = function () {
+        f[z] = function () {
+            (a.s = a.s || []).push(arguments)
+        }; var a = f[z]._ = {
+        }, q = c.methods.length; while (q--) {
+            (function (n) {
+                f[z][n] = function () {
+                    f[z]("call", n, arguments)
+                }
+            })(c.methods[q])
+        } a.l = c.loader; a.i = nt; a.p = {
+            0: +new Date
+        }; a.P = function (u) {
+            a.p[u] = new Date - a.p[0]
+        }; function s() {
+            a.P(r); f[z](r)
+        } f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s); var ld = function () {
+            function p(hd) {
+                hd = "head"; return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g, ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k, "='", l, "//", a.l, "'", '"', "></", i, ">"].join("")
+            } var i = "body", m = d[i]; if (!m) {
+                return setTimeout(ld, 100)
+            } a.P(1); var j = "appendChild", h = "createElement", k = "src", n = d[h]("div"), v = n[j](d[h](z)), b = d[h]("iframe"), g = "document", e = "domain", o; n.style.display = "none"; m.insertBefore(n, m.firstChild).id = z; b.frameBorder = "0"; b.id = z + "-loader"; if (/MSIE[ ]+6/.test(navigator.userAgent)) {
+                b.src = "javascript:false"
+            } b.allowTransparency = "true"; v[j](b); try {
+                b.contentWindow[g].open()
+            } catch (w) {
+                c[e] = d[e]; o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';"; b[k] = o + "void(0);"
+            } try {
+                var t = b.contentWindow[g]; t.write(p()); t.close()
+            } catch (x) {
+                b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();'
+            } a.P(2)
+        }; ld()
+    }; nt()
+})({
+    loader: "static.olark.com/jsclient/loader0.js", name: "olark", methods: ["configure", "extend", "declare", "identify"]
+});
+    /* custom configuration goes here (www.olark.com/documentation) */
+    olark.identify('1004-577-10-6592');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1004-577-10-6592/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com/?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+
+<script> olark.configure('system.group', 'fd7a072a5b6d320bf5c1cc359c37fb9c'); /*Routes to Mumbai*/ </script>
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1071761220;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="../www.googleadservices.com/pagead/f.txt">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071761220/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script src="js/v-636556232200000000/acs-build.min.js"></script>    
+    </body>
+
+</html>
